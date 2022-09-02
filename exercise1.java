@@ -142,7 +142,7 @@ class cylinder extends circle
     double getvolume()
     {
         double volume;
-        volume=(Math.PI*radius*radius*height)/3;
+        volume=Math.PI*radius*radius*height;
         return volume;
     }
 }
